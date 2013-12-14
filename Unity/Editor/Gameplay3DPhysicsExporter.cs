@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 
 /// <summary>
-/// A Unity3D extension that partially exports the physics and camera data in a Unity3D
+/// A Unity3D extension that exports the physics and camera data in a Unity3D
 /// scene to the Gameplay3D .physics and .scene data formats.
 /// 
 /// The goal of this tool is to allow you to rapidly iterate upon Gameplay3D physics scenes within
