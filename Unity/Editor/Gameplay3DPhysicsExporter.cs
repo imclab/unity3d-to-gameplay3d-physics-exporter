@@ -140,6 +140,12 @@ public class Gameplay3DPhysicsExporter : EditorWindow
             Camera.main.transform.localScale.y,
             Camera.main.transform.localScale.z));
         
+        float angle = 0.0f;
+        Vector3 axis = Vector3.zero;
+        Camera.main.transform.rotation.ToAngleAxis(out angle, out axis);
+        sceneOutput.AppendLine(string.Format("\t\trotate = {0}, {1}, {2}, {3}",
+            -axis.x, -axis.y, -axis.z, angle));
+		
         sceneOutput.AppendLine();
         sceneOutput.AppendLine("\t\tcamera " + Camera.main.name.Replace(" ", ""));
         sceneOutput.AppendLine("\t\t{");
