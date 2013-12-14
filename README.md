@@ -7,10 +7,11 @@ This tool allows you to rapidly iterate upon Gameplay3D physics scenes within th
 This tool does not attempt to replicate the physics behaviour of Unity3D in Gameplay3D and therefore the outcome of the both simulations will differ when run side by side.
 
 ## Pre-requisites
-- Familiarity with Unity3D
-- Familiarity with the [Gameplay3D physics schema](https://github.com/blackberry/GamePlay/wiki/Physics)
 - Download [Gameplay3D](http://www.gameplay3d.org/)
 - Download [Unity3D](http://unity3d.com/)
+- Familiarity with Unity3D
+- Familiarity with building and running the sample browser in Gameplay3D
+- Familiarity with the [Gameplay3D physics schema](https://github.com/blackberry/GamePlay/wiki/Physics)
 
 ## Instructions
 ### Unity3D
