@@ -2,6 +2,8 @@
 
 A Unity3D extension that exports the physics and camera data in a Unity3D scene to the Gameplay3D .physics and .scene data formats.
 
+![ScreenShot](https://raw.github.com/louis-mclaughlin/unity3d-to-gameplay3d-physics-exporter/master/Img/unity.png)
+
 This tool allows you to rapidly iterate upon Gameplay3D physics scenes within the Unity3D editor.
 
 This tool does not attempt to replicate the physics behaviour of Unity3D in Gameplay3D and therefore the outcome of the both simulations will differ when run side by side.
@@ -30,7 +32,10 @@ This tool does not attempt to replicate the physics behaviour of Unity3D in Game
  - Add a `Gameplay3DRigidBodyParams` if you have a `RigidBody` (optional). You can use this to define additional Gameplay3D rigid body params: *friction, restitution, linearDamping, angularDamping and anisotropicFriction*
 - Create your scene using instances of the pre-fabs you just created
 - Ensure your main camera is configured correctly in either Orthographic or Persepctive mode, this will be exported as part of the Gameplay3D scene
-- Open the exporter tool: Menu->Window->Gameplay3D Physics Exporter
+- Open the exporter tool: Menu->Window->Gameplay3D Physics Exporter:
+
+ ![ScreenShot](https://raw.github.com/louis-mclaughlin/unity3d-to-gameplay3d-physics-exporter/master/Img/exporter.png)
+
 - You'll be presented with a form containing several properties that you must fill in:
  - **Name** - The name of the .scene and .physics files that will be output
  - **Scene output dir** - The directory the .scene file will be written to
@@ -42,3 +47,7 @@ This tool does not attempt to replicate the physics behaviour of Unity3D in Game
 
 ### Gameplay3D
 See the **Example** directory for an example of how to easily reload .scenes at runtime. All the scene and physics files in **res/scenes** and **res/physics** were generated in Unity3D using the exporter.
+
+![ScreenShot](https://raw.github.com/louis-mclaughlin/unity3d-to-gameplay3d-physics-exporter/master/Img/example2d.png)
+
+![ScreenShot](https://raw.github.com/louis-mclaughlin/unity3d-to-gameplay3d-physics-exporter/master/Img/example3d.png)
