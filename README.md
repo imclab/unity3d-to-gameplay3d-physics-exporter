@@ -1,4 +1,4 @@
-# Unity3D to Gameplay3d physics exporter
+# Unity3D to Gameplay3D physics exporter
 
 A Unity3D extension that exports the physics and camera data in a Unity3D scene to the Gameplay3D .physics and .scene data formats.
 
@@ -40,4 +40,4 @@ This tool does not attempt to replicate the physics behaviour of Unity3D in Game
 - You can now load the scene in Gameplay3D
 
 ### Gameplay3D
-See the **Example** directory for an example of how to easily reload .scenes at runtime.
+See the **Example** directory for an example of how to easily reload .scenes at runtime. All the scene and physics files in **res/scenes** and **res/physics** were generated in Unity3D using the exporter.
