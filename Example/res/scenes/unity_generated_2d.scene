@@ -1,0 +1,79 @@
+scene
+{
+    node Camera
+    {
+        translate = 0, -2.478987, 2
+        scale = 1, 1, 1
+        rotate = -1, 0, 0, 0
+
+        camera MainCamera
+        {
+            type = ORTHOGRAPHIC
+            nearPlane = 0.3
+            farPlane = 1000
+            zoomX = 17.77778
+            zoomY = 10
+        }
+    }
+
+    node SphereBig_0
+    {
+        translate = 3.742249, -0.8807808, 0
+        rotate = 1, 0, 0, 0
+        collisionObject = res/physics/unity_generated_2d.physics#SphereBig
+    }
+
+    node SphereSmall_0
+    {
+        translate = 3.289389, -3.593323, 0
+        rotate = 1, 0, 0, 0
+        collisionObject = res/physics/unity_generated_2d.physics#SphereSmall
+    }
+
+    node Capsule_0
+    {
+        translate = 0, -3.104822, 0
+        rotate = 0, 0, -0.9999999, 38.94181
+        collisionObject = res/physics/unity_generated_2d.physics#Capsule
+    }
+
+    node Floor_0
+    {
+        translate = 4.2, -4.751844, 0
+        rotate = 0, 0, 1, 38.58445
+        collisionObject = res/physics/unity_generated_2d.physics#Floor
+    }
+
+    node Floor_1
+    {
+        translate = 0, -6.251844, 0
+        rotate = 1, 0, 0, 0
+        collisionObject = res/physics/unity_generated_2d.physics#Floor
+    }
+
+    node SphereBig_1
+    {
+        translate = 0.4728515, -0.8805219, 0
+        rotate = 1, 0, 0, 0
+        collisionObject = res/physics/unity_generated_2d.physics#SphereBig
+    }
+
+    node Floor_2
+    {
+        translate = -4.2, -4.751844, 0
+        rotate = 0, 0, -1, 38.58447
+        collisionObject = res/physics/unity_generated_2d.physics#Floor
+    }
+
+    node BoxBig_0
+    {
+        translate = -3.04144, -2.631312, 0
+        rotate = 0, 0, 1.000001, 25.08223
+        collisionObject = res/physics/unity_generated_2d.physics#BoxBig
+    }
+
+    physics
+    {
+        gravity = 0, -9.81, 0
+    }
+}

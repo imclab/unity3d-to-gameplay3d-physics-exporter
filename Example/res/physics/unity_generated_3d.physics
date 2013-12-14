@@ -1,0 +1,52 @@
+collisionObject BoxBig
+{
+    type = RIGID_BODY
+    shape = BOX
+    mass = 1
+    extents = 2, 2, 2
+    kinematic = False
+    linearFactor = 1, 1, 1
+    angularFactor = 1, 1, 1
+}
+
+collisionObject SphereBig
+{
+    type = RIGID_BODY
+    shape = SPHERE
+    mass = 0.01
+    radius = 1
+    kinematic = False
+    linearFactor = 1, 1, 1
+    angularFactor = 1, 1, 1
+}
+
+collisionObject Capsule
+{
+    type = RIGID_BODY
+    shape = CAPSULE
+    mass = 1
+    radius = 0.5000001
+    height = 2
+    kinematic = False
+    linearFactor = 1, 1, 1
+    angularFactor = 1, 1, 1
+}
+
+collisionObject SphereSmall
+{
+    type = RIGID_BODY
+    shape = SPHERE
+    mass = 0.2
+    radius = 0.2500001
+    kinematic = False
+    linearFactor = 1, 1, 1
+    angularFactor = 1, 1, 1
+}
+
+collisionObject Floor
+{
+    type = RIGID_BODY
+    shape = BOX
+    mass = 0
+    extents = 11.84456, 0.5922287, 12.2573
+}
