@@ -19,56 +19,56 @@ scene
     {
         translate = -4.350566, -0.750998, -1.288982
         rotate = 0.8780351, -0.477499, -0.03239555, 58.69505
-        collisionObject = physics/unity_generated_3d.physics#SphereBig
+        collisionObject = res/physics/unity_generated_3d.physics#SphereBig
     }
 
     node SphereSmall_0
     {
         translate = 3.450772, -1.518324, 0.9447104
         rotate = 0.8780351, -0.477499, -0.03239555, 58.69505
-        collisionObject = physics/unity_generated_3d.physics#SphereSmall
+        collisionObject = res/physics/unity_generated_3d.physics#SphereSmall
     }
 
     node Capsule_0
     {
         translate = 0.4384749, -0.9244356, 5.369629
         rotate = 0.8378897, -0.1337226, -0.5292063, 70.52393
-        collisionObject = physics/unity_generated_3d.physics#Capsule
+        collisionObject = res/physics/unity_generated_3d.physics#Capsule
     }
 
     node BoxBig_0
     {
         translate = -2.541647, 3.298934, 2.712207
         rotate = 0.9683021, 0.1918098, -0.1600008, 84.41869
-        collisionObject = physics/unity_generated_3d.physics#BoxBig
+        collisionObject = res/physics/unity_generated_3d.physics#BoxBig
     }
 
     node Floor_0
     {
         translate = 0, -2.238438, 0
         rotate = 1, 0, 0, 0
-        collisionObject = physics/unity_generated_3d.physics#Floor
+        collisionObject = res/physics/unity_generated_3d.physics#Floor
     }
 
     node SphereBig_1
     {
         translate = 0.4728515, -0.9038048, 0
         rotate = 0.8780351, -0.477499, -0.03239555, 58.69505
-        collisionObject = physics/unity_generated_3d.physics#SphereBig
+        collisionObject = res/physics/unity_generated_3d.physics#SphereBig
     }
 
     node BoxBig_1
     {
         translate = -2.541647, 1.287844, 2.712207
         rotate = 0.9683021, 0.1918098, -0.1600008, 84.41869
-        collisionObject = physics/unity_generated_3d.physics#BoxBig
+        collisionObject = res/physics/unity_generated_3d.physics#BoxBig
     }
 
     node BoxBig_2
     {
         translate = -2.541647, -0.7220738, 2.712207
         rotate = 0.9683021, 0.1918098, -0.1600008, 84.41869
-        collisionObject = physics/unity_generated_3d.physics#BoxBig
+        collisionObject = res/physics/unity_generated_3d.physics#BoxBig
     }
 
     physics
