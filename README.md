@@ -12,7 +12,7 @@ This tool does not attempt to replicate the physics behaviour of Unity3D in Game
 - Download [Gameplay3D](http://www.gameplay3d.org/)
 - Download [Unity3D](http://unity3d.com/)
 - Familiarity with Unity3D
-- Familiarity with building and running the sample browser in Gameplay3D
+- Familiarity with building and running Gameplay3D on your platform
 - Familiarity with the [Gameplay3D physics schema](https://github.com/blackberry/GamePlay/wiki/Physics)
 
 ## Instructions

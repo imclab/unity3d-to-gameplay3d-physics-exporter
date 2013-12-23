@@ -1,20 +1,20 @@
-collisionObject BoxBig
-{
-    type = RIGID_BODY
-    shape = BOX
-    mass = 1
-    extents = 2, 2, 2
-    kinematic = False
-    linearFactor = 1, 1, 1
-    angularFactor = 1, 1, 1
-}
-
 collisionObject SphereBig
 {
     type = RIGID_BODY
     shape = SPHERE
     mass = 0.01
     radius = 1
+    kinematic = False
+    linearFactor = 1, 1, 1
+    angularFactor = 1, 1, 1
+}
+
+collisionObject SphereSmall
+{
+    type = RIGID_BODY
+    shape = SPHERE
+    mass = 0.2
+    radius = 0.2500001
     kinematic = False
     linearFactor = 1, 1, 1
     angularFactor = 1, 1, 1
@@ -32,12 +32,12 @@ collisionObject Capsule
     angularFactor = 1, 1, 1
 }
 
-collisionObject SphereSmall
+collisionObject BoxBig
 {
     type = RIGID_BODY
-    shape = SPHERE
-    mass = 0.2
-    radius = 0.2500001
+    shape = BOX
+    mass = 1
+    extents = 2, 2, 2
     kinematic = False
     linearFactor = 1, 1, 1
     angularFactor = 1, 1, 1
